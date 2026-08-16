@@ -1,0 +1,23 @@
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.env
+.env.*
+node_modules/
+frontend/dist/
+backend/.env
+.DS_Store
+
+# Python cache
+*.pyo
+
+# Large/generated files
+*.log
+
+# Local uploads
+uploads/
+
+# Model checkpoints / temporary files
+*.pt.tmp
+*.pth.tmp

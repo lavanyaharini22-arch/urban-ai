@@ -1,0 +1,21 @@
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+pydantic==2.9.2
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+bcrypt==4.2.0
+python-multipart==0.0.9
+numpy==1.26.4
+pandas==2.2.2
+scikit-learn==1.5.1
+Pillow==10.4.0
+opencv-python-headless==4.10.0.84
+matplotlib==3.9.2
+
+# torch / torchvision are installed separately — see README "Installation"
+# section. A plain `pip install torch torchvision` from this file can fail
+# on Windows because PyPI's default index doesn't always resolve the right
+# wheel. Install them first with the command from https://pytorch.org
+# (CPU-only example):
+#   pip install torch torchvision --index-url https://download.pytorch.org/whl/cpu
+# then run `pip install -r requirements.txt` for everything else.
